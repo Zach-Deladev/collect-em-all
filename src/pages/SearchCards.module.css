@@ -1,0 +1,36 @@
+.header {
+  text-align: center;
+}
+
+.searchInput {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  height: 3em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.setFilter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 51%;
+  height: 4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flexboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinnerOverride {
+  display: "block";
+  margin: "0 auto";
+  border-color: "blue";
+}

@@ -2,9 +2,15 @@ import { useState, useEffect } from "react";
 import CardOverview from "../components/CardOverview";
 import styles from "./SearchCards.module.css";
 import ClipLoader from "react-spinners/ClipLoader";
-import spinnerOverride from "../utils/spinnerOverride";
+import spinnerOverride from "../utils/SpinnerOverride";
 import Select from "react-select";
 import setOptions from "../data/sets";
+
+/**
+ * The `SearchCards` component represents a page in my app
+ * which allows the user to search for cards by their name
+ * and filter them by their set.
+ */
 
 export default function Search() {
   // Track the `loading` state property of `SearchCards` page/component with the method `setLoading
@@ -40,25 +46,21 @@ export default function Search() {
       // and set filter values.
       let url = `${SEARCH_CARDS_BASE_URL}?`;
       if (set && set.value !== "all") {
-
         // if `set` is not null, and the value is not 'all', then
         // the user must have manually set the `set` using the set
         // filter, so append it to the url
         url += `q=set.id:${set.value}`;
 
         if (cleanSearchInput === "") {
-
           // If the user has not entered any input into the search
           // input, display the first 50 cards from the api
           url += `&pageSize=50`;
         } else {
-
           // If the user has entered something in the search input, then
           // search for all cards with that name
           url += ` name:${cleanSearchInput}`;
         }
       } else {
-
         // Same ideas for both situations listed above, just with slightly
         // different string formatting due to the strange way the api wants
         // developers to format query params.
@@ -104,7 +106,6 @@ export default function Search() {
         className={styles.searchInput}
         type="text"
         value={searchInput}
-
         // When the text inside the search input field changes
         // update the value of the `searchInput` state
         onChange={(e) => setSearchInput(e.target.value)}
@@ -114,19 +115,16 @@ export default function Search() {
       <Select
         className={styles.setFilter}
         defaultValue={setOptions[0]}
-
         // When the filter option in the filter dropdown changes
         // update the the value of the `set` state
         onChange={(newSet) => setSet(newSet)}
         name="set"
-
         // `setOptions` is an array of objects, where each object
         // represents one set. See src/data/sets.js
         options={setOptions}
         classNamePrefix="select"
       />
       {loading ? (
-
         // If the `loading` state is true, display the loading spinner
         <ClipLoader
           loading={loading}
@@ -134,19 +132,16 @@ export default function Search() {
           cssOverride={spinnerOverride}
         />
       ) : !loading && cards.length === 0 ? (
-
         // If the `loading` state is false, and there are no cards
         // in the array, then tell the user that no cards have been
         // found
         <h2>No cards found</h2>
       ) : (
-
         // If the app is not loading, and there are cards in the
         // `cards` array, then render them out on the screen for the
         // user to see.
         <div className={styles.flexboxContainer}>
           {cards.map((card, idx) => {
-
             // Pass the data for each card returned from the
             // api into the `CardOverview` component which will
             // render the data (image, name, set, etc) to the screen

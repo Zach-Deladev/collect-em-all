@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import spinnerOverride from "../utils/SpinnerOverride";
+import styles from "./CardDetail.module.css";
 
 /**
  * `CardDetail` fetches and displays detailed information for
@@ -74,18 +75,24 @@ export default function CardDetail() {
       ) : (
         // If `loading` is false and the `cardData` is not null
         // then parse and diplay the card data
-        <div>
+
+        <div className={styles.cardD}>
           {/* {JSON.stringify(cardData)} */}
-          <img src={cardData.images.small} alt="" />
           <h1>{cardData.name}</h1>
-          <p>Name: {cardData.name}</p>
-          <p>Description: {cardData.flavorText}</p>
+          <img src={cardData.images.small} alt="Card image" />
           <p>Artist: {cardData.artist}</p>
-          <a href={cardData.cardmarket.url}>
-            <span>Bu y (~£{cardData.cardmarket.prices.averageSellPrice})</span>
-          </a>
-          <span> (Last upated:{cardData.cardmarket.updatedAt})</span>
+          <p>Set: {cardData.set.name}</p>
           <p>ID: {cardData.id}</p>
+
+          <p>
+            <button className={styles.buyB} href={cardData.cardmarket.url}>
+              {" "}
+              Buy{" "}
+            </button>{" "}
+            this card for: £{cardData.cardmarket.prices.averageSellPrice} from
+            Card Market!
+          </p>
+          <span> (Last upated:{cardData.cardmarket.updatedAt})</span>
         </div>
       )}
     </div>

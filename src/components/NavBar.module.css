@@ -1,0 +1,9 @@
+.navB {
+  background-color: red;
+  border: 4px solid black;
+}
+
+.navL {
+  color: white !important;
+  font-weight: 600 !important;
+}

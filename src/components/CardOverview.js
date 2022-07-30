@@ -20,8 +20,11 @@ export default function CardOverview({ cardData }) {
     >
       <div className={styles.cardOverview}>
         <img alt="Card" src={cardData.images.small} />
-        <h3>{cardData.name}</h3>
-        <p>Set: {cardData.set.name}</p>
+        <div className={styles.cardT}>
+          <h4>{cardData.name}</h4>
+
+          <p>Set: {cardData.set.name}</p>
+        </div>
       </div>
     </Link>
   );

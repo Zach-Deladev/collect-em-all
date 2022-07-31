@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import ClipLoader from "react-spinners/ClipLoader";
-import spinnerOverride from "../utils/SpinnerOverride";
+
+import SpinnerOverride from "../utils/SpinnerOverride";
 import styles from "./CardDetail.module.css";
 
 /**
@@ -58,11 +58,7 @@ export default function CardDetail() {
       {loading ? (
         // If the `loading` state is true, show the loading
         // spinner
-        <ClipLoader
-          loading={loading}
-          size={150}
-          cssOverride={spinnerOverride}
-        />
+        <SpinnerOverride />
       ) : !loading && !cardData ? (
         // if the `loading state is false and the
         // cardData is null, inform the user that data for the
@@ -78,21 +74,34 @@ export default function CardDetail() {
 
         <div className={styles.cardD}>
           {/* {JSON.stringify(cardData)} */}
-          <h1>{cardData.name}</h1>
-          <img src={cardData.images.small} alt="Card image" />
-          <p>Artist: {cardData.artist}</p>
-          <p>Set: {cardData.set.name}</p>
-          <p>ID: {cardData.id}</p>
-
-          <p>
-            <button className={styles.buyB} href={cardData.cardmarket.url}>
+          <div className={styles.card}>
+            <h1>{cardData.name}</h1>
+            <p>Set: {cardData.set.name}</p>
+            <img src={cardData.images.large} alt="Card image" />
+            <p>Artist: {cardData.artist}</p>
+            <p>ID: {cardData.id}</p>
+          </div>
+          <div className={styles.card}>
+            <h4>Price data:</h4>
+            <p>
+              The lowest price on the market: £
+              {cardData.cardmarket.prices.lowPrice}
+            </p>
+            <p>The trend price: £{cardData.cardmarket.prices.trendPrice}</p>
+            <p>
+              The average sell price: £
+              {cardData.cardmarket.prices.averageSellPrice}
+            </p>
+            <p>
               {" "}
-              Buy{" "}
-            </button>{" "}
-            this card for: £{cardData.cardmarket.prices.averageSellPrice} from
-            Card Market!
-          </p>
-          <span> (Last upated:{cardData.cardmarket.updatedAt})</span>
+              <a href={cardData.cardmarket.url} target="_blank">
+                <button className={styles.buyB} href={cardData.cardmarket.url}>
+                  Purchase
+                </button>
+              </a>
+            </p>
+            <span> (Last upated:{cardData.cardmarket.updatedAt})</span>
+          </div>
         </div>
       )}
     </div>

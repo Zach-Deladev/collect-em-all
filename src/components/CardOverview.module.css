@@ -5,6 +5,16 @@
   border: 3px solid black;
 }
 
+.cardOverview:hover {
+  transform: scale(1.2);
+}
+
+.cardOverview img {
+  border-radius: 9px;
+  height: 400px;
+  width: auto;
+  overflow: hidden;
+}
 .cardT {
   background-color: white;
   color: black;

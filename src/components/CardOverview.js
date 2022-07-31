@@ -19,7 +19,7 @@ export default function CardOverview({ cardData }) {
       style={{ textDecoration: "none" }}
     >
       <div className={styles.cardOverview}>
-        <img alt="Card" src={cardData.images.small} />
+        <img alt="Card" src={cardData.images.large} />
         <div className={styles.cardT}>
           <h4>{cardData.name}</h4>
 

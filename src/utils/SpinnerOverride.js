@@ -1,8 +1,7 @@
-// Overrides some of the default styles of the
-// spinner provided by the react-spinner package.
+// Custom laoding spinner
 
-export default {
-  display: "block",
-  margin: "0 auto",
-  borderColor: "blue",
-};
+import React from "react";
+import styles from "./SpinnerOverride.module.css";
+export default function SpinnerOverride() {
+  return <div className={styles.pokeball}></div>;
+}

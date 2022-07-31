@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import CardOverview from "../components/CardOverview";
 import styles from "./SearchCards.module.css";
-import ClipLoader from "react-spinners/ClipLoader";
-import spinnerOverride from "../utils/SpinnerOverride";
 import Select from "react-select";
 import setOptions from "../data/sets";
+import SpinnerOverride from "../utils/SpinnerOverride";
 
 /**
  * The `SearchCards` component represents a page in my app
@@ -126,11 +125,7 @@ export default function Search() {
       />
       {loading ? (
         // If the `loading` state is true, display the loading spinner
-        <ClipLoader
-          loading={loading}
-          size={150}
-          cssOverride={spinnerOverride}
-        />
+        <SpinnerOverride />
       ) : !loading && cards.length === 0 ? (
         // If the `loading` state is false, and there are no cards
         // in the array, then tell the user that no cards have been

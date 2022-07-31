@@ -1,7 +1,7 @@
 .cardD {
   background-color: white;
   margin: auto;
-  width: 50%;
+  width: 60%;
   text-align: center;
   border-radius: 50px;
 }
@@ -9,6 +9,9 @@
 .cardD img {
   display: block;
   margin: auto;
+  height: 450px;
+  width: auto;
+  border-radius: 5px;
 }
 
 .cardD h1 {
@@ -16,7 +19,16 @@
 }
 
 .buyB {
-  border-radius: 15%;
+  border-radius: 10px;
   background-color: rgb(49, 214, 49);
   color: white;
+}
+
+.card {
+  display: inline-block;
+  padding: 20px;
+}
+
+.card2 {
+  margin: 200px 20px;
 }

@@ -1,0 +1,12 @@
+.cardD {
+  background-color: white;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.card img {
+  height: 100px;
+  width: auto;
+}

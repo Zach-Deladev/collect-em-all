@@ -80,8 +80,7 @@ export default function CardDetail() {
             <img src={cardData.images.large} alt="Card image" />
             <p>Artist: {cardData.artist}</p>
             <p>ID: {cardData.id}</p>
-          </div>
-          <div className={styles.card}>
+
             <h4>Price data:</h4>
             <p>
               The lowest price on the market: £

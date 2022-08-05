@@ -20,3 +20,35 @@
   color: black;
   text-align: center;
 }
+
+.cardImage {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: rgb(106, 240, 106);
+  background-color: white;
+  height: 25px;
+  width: auto;
+}
+
+.needed {
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  margin: 3px;
+  color: white;
+}
+
+.owned {
+  background-color: rgb(49, 246, 49);
+  border: 0;
+  border-radius: 5px;
+  margin: 3px;
+  color: white;
+}

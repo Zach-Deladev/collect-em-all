@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../media/logo-main.png";
 import styles from "./NavBar.module.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -19,9 +20,12 @@ function NavBar() {
             />
           </Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link className={styles.navL} href="#home">Home</Nav.Link>
-            <Nav.Link className={styles.navL} href="#features">Features</Nav.Link>
-            <Nav.Link className={styles.navL} href="#pricing">Pricing</Nav.Link>
+            <Nav.Link className={styles.navL} as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link className={styles.navL} as={Link} to="/my-collection">
+              My Collection
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

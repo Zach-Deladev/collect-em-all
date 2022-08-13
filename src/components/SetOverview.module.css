@@ -1,12 +1,29 @@
 .cardD {
   background-color: white;
-  margin: auto;
-  width: 60%;
+
+  width: 25%;
   text-align: center;
   border-radius: 50px;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
 }
 
 .card img {
-  height: 100px;
-  width: auto;
+  max-height: auto;
+  max-width: 150px;
+  margin-top: 30px;
+}
+
+.card h2 {
+  margin-bottom: 0 !important;
+}
+
+.flexboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px;
 }

@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import CardOverview from "../components/CardOverview";
 import styles from "./SearchCards.module.css";
 import Select from "react-select";
 import setOptions from "../data/sets";
 import SpinnerOverride from "../utils/SpinnerOverride";
+import SetOverview from "../components/SetOverview";
 
 /**
  * The `SearchCards` component represents a page in my app
@@ -14,7 +15,7 @@ import SpinnerOverride from "../utils/SpinnerOverride";
 export default function Search() {
   // Track the `loading` state property of `SearchCards` page/component with the method `setLoading
   // this is true by default.
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   // Track the value of the `searchInput` state property with the method `setSearchInput` field
   // An empty string by default
@@ -27,6 +28,8 @@ export default function Search() {
   // Track the `cards` state property that have been returned from the api with the `setCards` method
   // An empty array by default
   const [cards, setCards] = useState([]);
+
+  const isMounted = useRef(true);
 
   // The base url for the api which will append extra info
   // to based on the users input/selections.
@@ -53,20 +56,20 @@ export default function Search() {
         if (cleanSearchInput === "") {
           // If the user has not entered any input into the search
           // input, display the first 50 cards from the api
-          url += `&pageSize=50`;
         } else {
           // If the user has entered something in the search input, then
           // search for all cards with that name
           url += ` name:${cleanSearchInput}`;
+          isMounted.current = true;
         }
       } else {
         // Same ideas for both situations listed above, just with slightly
         // different string formatting due to the strange way the api wants
         // developers to format query params.
         if (cleanSearchInput === "") {
-          url += `pageSize=50`;
         } else {
           url += `q=name:${cleanSearchInput}`;
+          isMounted.current = true;
         }
       }
 
@@ -85,9 +88,14 @@ export default function Search() {
 
       // Wait 4 seconds before setting the `loading` state to false.
       // This gives react time to fully update the `cards` state.
+      console.log("before set time out");
       setTimeout(() => {
         setLoading(false);
-      }, 4000);
+
+        console.log("during set timeout");
+      }, 3000);
+
+      console.log("after set timeout");
     }
 
     // Call the `fetchCards` function
@@ -130,7 +138,8 @@ export default function Search() {
         // If the `loading` state is false, and there are no cards
         // in the array, then tell the user that no cards have been
         // found
-        <h2>No cards found</h2>
+
+        <SetOverview />
       ) : (
         // If the app is not loading, and there are cards in the
         // `cards` array, then render them out on the screen for the
@@ -142,7 +151,8 @@ export default function Search() {
             // render the data (image, name, set, etc) to the screen
             return (
               <div key={idx}>
-                <CardOverview cardData={card} />;
+                <CardOverview cardData={card} />
+      
               </div>
             );
           })}

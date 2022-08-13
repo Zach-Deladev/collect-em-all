@@ -25,7 +25,7 @@ export default function CardOverview({ cardData }) {
         <div className={styles.cardImage}>
           <FontAwesomeIcon className={styles.icon} icon={faCircleCheck} />
 
-          <img alt="Card" src={cardData.images.large} />
+          <img alt="Card" src={cardData.images.small} />
         </div>
         <div className={styles.cardT}>
           <h4>{cardData.name}</h4>

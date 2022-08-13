@@ -40,21 +40,7 @@ export default [
       logo: "https://images.pokemontcg.io/base2/logo.png",
     },
   },
-  {
-    value: "basep",
-    label: "Wizards Black Star Promos",
-    series: "Base",
-    printedTotal: 53,
-    total: 53,
-    legalities: { unlimited: "Legal" },
-    ptcgoCode: "PR",
-    releaseDate: "1999/07/01",
-    updatedAt: "2020/08/14 09:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/basep/symbol.png",
-      logo: "https://images.pokemontcg.io/basep/logo.png",
-    },
-  },
+
   {
     value: "base3",
     label: "Fossil",
@@ -309,21 +295,7 @@ export default [
       logo: "https://images.pokemontcg.io/ex3/logo.png",
     },
   },
-  {
-    value: "np",
-    label: "Nintendo Black Star Promos",
-    series: "NP",
-    printedTotal: 40,
-    total: 40,
-    legalities: { unlimited: "Legal" },
-    ptcgoCode: "PR-NP",
-    releaseDate: "2003/10/01",
-    updatedAt: "2020/05/01 16:06:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/np/symbol.png",
-      logo: "https://images.pokemontcg.io/np/logo.png",
-    },
-  },
+
   {
     value: "ex4",
     label: "Team Magma vs Team Aqua",
@@ -369,20 +341,7 @@ export default [
       logo: "https://images.pokemontcg.io/ex6/logo.png",
     },
   },
-  {
-    value: "pop1",
-    label: "POP Series 1",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2004/09/01",
-    updatedAt: "2018/03/04 10:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop1/symbol.png",
-      logo: "https://images.pokemontcg.io/pop1/logo.png",
-    },
-  },
+
   {
     value: "ex7",
     label: "Team Rocket Returns",
@@ -443,20 +402,7 @@ export default [
       logo: "https://images.pokemontcg.io/ex10/logo.png",
     },
   },
-  {
-    value: "pop2",
-    label: "POP Series 2",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2005/08/01",
-    updatedAt: "2018/03/04 10:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop2/symbol.png",
-      logo: "https://images.pokemontcg.io/pop2/logo.png",
-    },
-  },
+
   {
     value: "ex11",
     label: "Delta Species",
@@ -487,20 +433,7 @@ export default [
       logo: "https://images.pokemontcg.io/ex12/logo.png",
     },
   },
-  {
-    value: "pop3",
-    label: "POP Series 3",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2006/04/01",
-    updatedAt: "2020/08/14 09:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop3/symbol.png",
-      logo: "https://images.pokemontcg.io/pop3/logo.png",
-    },
-  },
+
   {
     value: "ex13",
     label: "Holon Phantoms",
@@ -531,20 +464,7 @@ export default [
       logo: "https://images.pokemontcg.io/ex14/logo.png",
     },
   },
-  {
-    value: "pop4",
-    label: "POP Series 4",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2006/08/01",
-    updatedAt: "2020/08/14 09:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop4/symbol.png",
-      logo: "https://images.pokemontcg.io/pop4/logo.png",
-    },
-  },
+
   {
     value: "ex15",
     label: "Dragon Frontiers",
@@ -560,20 +480,7 @@ export default [
       logo: "https://images.pokemontcg.io/ex15/logo.png",
     },
   },
-  {
-    value: "pop5",
-    label: "POP Series 5",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2007/03/01",
-    updatedAt: "2020/08/14 09:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop5/symbol.png",
-      logo: "https://images.pokemontcg.io/pop5/logo.png",
-    },
-  },
+
   {
     value: "ex16",
     label: "Power Keepers",
@@ -604,21 +511,7 @@ export default [
       logo: "https://images.pokemontcg.io/dp1/logo.png",
     },
   },
-  {
-    value: "dpp",
-    label: "DP Black Star Promos",
-    series: "Diamond \u0026 Pearl",
-    printedTotal: 56,
-    total: 56,
-    legalities: { unlimited: "Legal" },
-    ptcgoCode: "PR-DPP",
-    releaseDate: "2007/05/01",
-    updatedAt: "2020/08/14 09:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/dpp/symbol.png",
-      logo: "https://images.pokemontcg.io/dpp/logo.png",
-    },
-  },
+
   {
     value: "dp2",
     label: "Mysterious Treasures",
@@ -634,20 +527,7 @@ export default [
       logo: "https://images.pokemontcg.io/dp2/logo.png",
     },
   },
-  {
-    value: "pop6",
-    label: "POP Series 6",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2007/09/01",
-    updatedAt: "2020/05/01 16:06:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop6/symbol.png",
-      logo: "https://images.pokemontcg.io/pop6/logo.png",
-    },
-  },
+
   {
     value: "dp3",
     label: "Secret Wonders",
@@ -678,20 +558,7 @@ export default [
       logo: "https://images.pokemontcg.io/dp4/logo.png",
     },
   },
-  {
-    value: "pop7",
-    label: "POP Series 7",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2008/03/01",
-    updatedAt: "2018/03/04 10:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop7/symbol.png",
-      logo: "https://images.pokemontcg.io/pop7/logo.png",
-    },
-  },
+
   {
     value: "dp5",
     label: "Majestic Dawn",
@@ -722,20 +589,7 @@ export default [
       logo: "https://images.pokemontcg.io/dp6/logo.png",
     },
   },
-  {
-    value: "pop8",
-    label: "POP Series 8",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2008/09/01",
-    updatedAt: "2018/03/04 10:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop8/symbol.png",
-      logo: "https://images.pokemontcg.io/pop8/logo.png",
-    },
-  },
+
   {
     value: "dp7",
     label: "Stormfront",
@@ -766,20 +620,7 @@ export default [
       logo: "https://images.pokemontcg.io/pl1/logo.png",
     },
   },
-  {
-    value: "pop9",
-    label: "POP Series 9",
-    series: "POP",
-    printedTotal: 17,
-    total: 17,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2009/03/01",
-    updatedAt: "2020/05/01 16:06:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/pop9/symbol.png",
-      logo: "https://images.pokemontcg.io/pop9/logo.png",
-    },
-  },
+
   {
     value: "pl2",
     label: "Rising Rivals",
@@ -854,21 +695,7 @@ export default [
       logo: "https://images.pokemontcg.io/hgss1/logo.png",
     },
   },
-  {
-    value: "hsp",
-    label: "HGSS Black Star Promos",
-    series: "HeartGold \u0026 SoulSilver",
-    printedTotal: 25,
-    total: 25,
-    legalities: { unlimited: "Legal" },
-    ptcgoCode: "PR-HS",
-    releaseDate: "2010/02/10",
-    updatedAt: "2019/01/28 16:44:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/hsp/symbol.png",
-      logo: "https://images.pokemontcg.io/hsp/logo.png",
-    },
-  },
+
   {
     value: "hgss2",
     label: "HS—Unleashed",
@@ -929,21 +756,7 @@ export default [
       logo: "https://images.pokemontcg.io/col1/logo.png",
     },
   },
-  {
-    value: "bwp",
-    label: "BW Black Star Promos",
-    series: "Black \u0026 White",
-    printedTotal: 101,
-    total: 101,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    ptcgoCode: "PR-BLW",
-    releaseDate: "2011/03/01",
-    updatedAt: "2020/08/14 09:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/bwp/symbol.png",
-      logo: "https://images.pokemontcg.io/bwp/logo.png",
-    },
-  },
+
   {
     value: "bw1",
     label: "Black \u0026 White",
@@ -959,20 +772,7 @@ export default [
       logo: "https://images.pokemontcg.io/bw1/logo.png",
     },
   },
-  {
-    value: "mcd11",
-    label: "McDonald's Collection 2011",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2011/06/17",
-    updatedAt: "2021/09/01 05:37:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd11/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd11/logo.png",
-    },
-  },
+
   {
     value: "bw2",
     label: "Emerging Powers",
@@ -1033,20 +833,7 @@ export default [
       logo: "https://images.pokemontcg.io/bw5/logo.png",
     },
   },
-  {
-    value: "mcd12",
-    label: "McDonald's Collection 2012",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2012/06/15",
-    updatedAt: "2021/09/01 05:37:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd12/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd12/logo.png",
-    },
-  },
+
   {
     value: "bw6",
     label: "Dragons Exalted",
@@ -1137,21 +924,7 @@ export default [
       logo: "https://images.pokemontcg.io/bw10/logo.png",
     },
   },
-  {
-    value: "xyp",
-    label: "XY Black Star Promos",
-    series: "XY",
-    printedTotal: 211,
-    total: 216,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    ptcgoCode: "PR-XY",
-    releaseDate: "2013/10/12",
-    updatedAt: "2020/08/14 09:35:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/xyp/symbol.png",
-      logo: "https://images.pokemontcg.io/xyp/logo.png",
-    },
-  },
+
   {
     value: "bw11",
     label: "Legendary Treasures",
@@ -1377,20 +1150,7 @@ export default [
       logo: "https://images.pokemontcg.io/xy11/logo.png",
     },
   },
-  {
-    value: "mcd16",
-    label: "McDonald's Collection 2016",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2016/08/19",
-    updatedAt: "2021/09/01 05:37:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd16/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd16/logo.png",
-    },
-  },
+
   {
     value: "xy12",
     label: "Evolutions",
@@ -1421,21 +1181,7 @@ export default [
       logo: "https://images.pokemontcg.io/sm1/logo.png",
     },
   },
-  {
-    value: "smp",
-    label: "SM Black Star Promos",
-    series: "Sun \u0026 Moon",
-    printedTotal: 248,
-    total: 250,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    ptcgoCode: "PR-SM",
-    releaseDate: "2017/02/03",
-    updatedAt: "2020/05/01 16:06:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/smp/symbol.png",
-      logo: "https://images.pokemontcg.io/smp/logo.png",
-    },
-  },
+
   {
     value: "sm2",
     label: "Guardians Rising",
@@ -1660,20 +1406,7 @@ export default [
       logo: "https://images.pokemontcg.io/sma/logo.png",
     },
   },
-  {
-    value: "mcd19",
-    label: "McDonald's Collection 2019",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2019/10/15",
-    updatedAt: "2021/09/01 05:37:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd19/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd19/logo.png",
-    },
-  },
+
   {
     value: "sm12",
     label: "Cosmic Eclipse",
@@ -1689,25 +1422,7 @@ export default [
       logo: "https://images.pokemontcg.io/sm12/logo.png",
     },
   },
-  {
-    value: "swshp",
-    label: "SWSH Black Star Promos",
-    series: "Sword \u0026 Shield",
-    printedTotal: 184,
-    total: 181,
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    ptcgoCode: "PR-SW",
-    releaseDate: "2019/11/15",
-    updatedAt: "2021/12/15 14:46:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/swshp/symbol.png",
-      logo: "https://images.pokemontcg.io/swshp/logo.png",
-    },
-  },
+
   {
     value: "swsh1",
     label: "Sword \u0026 Shield",
@@ -1933,76 +1648,6 @@ export default [
     },
   },
   {
-    value: "mcd14",
-    label: "McDonald's Collection 2014",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2014/05/23",
-    updatedAt: "2021/03/21 12:30:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd14/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd14/logo.png",
-    },
-  },
-  {
-    value: "mcd15",
-    label: "McDonald's Collection 2015",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2015/11/27",
-    updatedAt: "2021/09/21 06:10:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd15/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd15/logo.png",
-    },
-  },
-  {
-    value: "mcd18",
-    label: "McDonald's Collection 2018",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2018/10/16",
-    updatedAt: "2021/09/21 06:52:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd18/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd18/logo.png",
-    },
-  },
-  {
-    value: "mcd17",
-    label: "McDonald's Collection 2017",
-    series: "Other",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2017/11/07",
-    updatedAt: "2021/09/21 06:34:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd17/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd17/logo.png",
-    },
-  },
-  {
-    value: "mcd21",
-    label: "McDonald's Collection 2021",
-    series: "Other",
-    printedTotal: 25,
-    total: 25,
-    legalities: { unlimited: "Legal", expanded: "Legal" },
-    releaseDate: "2021/02/09",
-    updatedAt: "2021/09/07 13:00:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/mcd21/symbol.png",
-      logo: "https://images.pokemontcg.io/mcd21/logo.png",
-    },
-  },
-  {
     value: "bp",
     label: "Best of Game",
     series: "Other",
@@ -2036,81 +1681,7 @@ export default [
       logo: "https://images.pokemontcg.io/swsh8/logo.png",
     },
   },
-  {
-    value: "fut20",
-    label: "Pokémon Futsal Collection",
-    series: "Other",
-    printedTotal: 5,
-    total: 5,
-    legalities: {
-      unlimited: "Legal",
-      standard: "Legal",
-      expanded: "Legal",
-    },
-    ptcgoCode: "FUT20",
-    releaseDate: "2020/09/11",
-    updatedAt: "2021/11/12 06:03:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/fut20/symbol.png",
-      logo: "https://images.pokemontcg.io/fut20/logo.png",
-    },
-  },
-  {
-    value: "tk1a",
-    label: "EX Trainer Kit Latias",
-    series: "EX",
-    printedTotal: 10,
-    total: 10,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2004/06/01",
-    updatedAt: "2022/01/13 20:44:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/tk1a/symbol.png",
-      logo: "https://images.pokemontcg.io/tk1a/logo.png",
-    },
-  },
-  {
-    value: "tk1b",
-    label: "EX Trainer Kit Latios",
-    series: "EX",
-    printedTotal: 10,
-    total: 10,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2004/06/01",
-    updatedAt: "2022/01/13 20:44:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/tk1b/symbol.png",
-      logo: "https://images.pokemontcg.io/tk1b/logo.png",
-    },
-  },
-  {
-    value: "tk2a",
-    label: "EX Trainer Kit 2 Plusle",
-    series: "EX",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2006/03/01",
-    updatedAt: "2022/01/13 20:44:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/tk2a/symbol.png",
-      logo: "https://images.pokemontcg.io/tk2a/logo.png",
-    },
-  },
-  {
-    value: "tk2b",
-    label: "EX Trainer Kit 2 Minun",
-    series: "EX",
-    printedTotal: 12,
-    total: 12,
-    legalities: { unlimited: "Legal" },
-    releaseDate: "2006/03/01",
-    updatedAt: "2022/01/13 20:44:00",
-    images: {
-      symbol: "https://images.pokemontcg.io/tk2b/symbol.png",
-      logo: "https://images.pokemontcg.io/tk2b/logo.png",
-    },
-  },
+
   {
     value: "swsh9",
     label: "Brilliant Stars",

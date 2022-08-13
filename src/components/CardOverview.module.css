@@ -19,6 +19,8 @@
   background-color: white;
   color: black;
   text-align: center;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
 
 .cardImage {
